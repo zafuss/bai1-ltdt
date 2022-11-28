@@ -61,6 +61,7 @@ int checkGraphDirection(graph g) {
 
 
 int main() {
+    printf("Xin chao!\n");
     graph g;
     if (readMatrix(inputfile, g) == 1) {
         displayMatrix(g);
